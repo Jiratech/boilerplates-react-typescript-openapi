@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "Learning/src/*": [
+        "./src/*"
+      ]
+    }
+  }
+}

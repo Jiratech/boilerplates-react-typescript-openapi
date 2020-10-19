@@ -1,0 +1,8 @@
+{
+  "app.containers.LoginPage.title": "Pagina login",
+  "app.containers.LoginPage.register": "Inregistrati-va",
+  "app.containers.RegisterPage.title": "Pagina de inregistrare",
+  "app.containers.HomePage.welcomeText": "Bine ai venit admin & utilizator !",
+  "app.containers.HomePageAdmin.welcomeText": "Buna, admin!",
+  "app.containers.HomePageUser.welcomeText": "Buna, user!"
+}

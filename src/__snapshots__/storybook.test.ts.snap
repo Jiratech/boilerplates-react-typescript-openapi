@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots A Default 1`] = `
+<a
+  className="A-sc-1evl1wv-0 hZIDkV"
+>
+  Click here
+</a>
+`;
+
+exports[`Storyshots Button Default 1`] = `
+<button
+  className="Button__ButtonWrapper-sc-1adxkbv-1 lcfdMJ"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Button Loading 1`] = `
+<div
+  className="Button__LoaderWrapper-sc-1adxkbv-2 gIuuQp"
+>
+  <div
+    className="Button__Loader-sc-1adxkbv-0 heWpkN"
+  />
+</div>
+`;
+
+exports[`Storyshots DropDown Default 1`] = `
+<select
+  className="DropDown__Select-zhjfcb-0 XlXmY"
+  disabled={false}
+  onChange={[Function]}
+  value="ro"
+>
+  <option
+    value="en"
+  >
+    English
+  </option>
+  <option
+    value="ro"
+  >
+    Romana
+  </option>
+</select>
+`;
+
+exports[`Storyshots DropDown Disabled 1`] = `
+<select
+  className="DropDown__Select-zhjfcb-0 XlXmY"
+  disabled={true}
+  onChange={[Function]}
+  value="ro"
+>
+  <option
+    value="en"
+  >
+    English
+  </option>
+  <option
+    value="ro"
+  >
+    Romana
+  </option>
+</select>
+`;
+
+exports[`Storyshots DropDown Empty 1`] = `
+<select
+  className="DropDown__Select-zhjfcb-0 XlXmY"
+  disabled={true}
+  onChange={[Function]}
+  value="ro"
+>
+  <option
+    value="ro"
+  >
+    Empty
+  </option>
+</select>
+`;
+
+exports[`Storyshots Input Default 1`] = `
+<input
+  className="Input__InputWrapper-sc-64sj03-0 kzzYDG"
+  name="email"
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="input"
+/>
+`;
+
+exports[`Storyshots Input Readonly 1`] = `
+<input
+  className="Input__InputWrapper-sc-64sj03-0 kzzYDG"
+  disabled={true}
+  name="email"
+  onChange={[Function]}
+  placeholder=""
+  type="text"
+  value="disabled"
+/>
+`;
+
+exports[`Storyshots Title Default 1`] = `
+<h1
+  className="TItle__Title-sc-1n6twbw-0 hNVAJU"
+>
+  Title
+</h1>
+`;
+
+exports[`Storyshots UserList Default 1`] = `
+<ul>
+  <li>
+    <p
+      className="P-sc-1ezvho9-0 kjtihl"
+    >
+      user1@gmail.com
+    </p>
+  </li>
+  <li>
+    <p
+      className="P-sc-1ezvho9-0 kjtihl"
+    >
+      user2@gmail.com
+    </p>
+  </li>
+  <li>
+    <p
+      className="P-sc-1ezvho9-0 kjtihl"
+    >
+      user3@gmail.com
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots UserList Empty 1`] = `
+<p
+  className="P-sc-1ezvho9-0 kjtihl"
+>
+  no users found
+</p>
+`;

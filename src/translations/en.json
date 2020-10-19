@@ -1,0 +1,8 @@
+{
+  "app.containers.LoginPage.title": "Login Page",
+  "app.containers.LoginPage.register": "Register",
+  "app.containers.RegisterPage.title": "Register Page",
+  "app.containers.HomePage.welcomeText": "Hello admin & user !",
+  "app.containers.HomePageAdmin.welcomeText": "Hello admin!",
+  "app.containers.HomePageUser.welcomeText": "Hello user!"
+}

@@ -1,0 +1,827 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Admin login and add new users",
+    "line": 1,
+    "id": "admin-login-and-add-new-users",
+    "tags": [],
+    "uri": "src/utils/tests/e2e/features/AdminFunctionality.feature",
+    "elements": [
+      {
+        "id": "admin-login-and-add-new-users;test-admin-functionalities",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Test admin functionalities",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the \"LoginPage\" \"login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill \"input\" \"email\" with 'admin@admin.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill \"input\" \"password\" with 'Admin123'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I press \"button\" \"Login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be on the \"home\" page",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see \"HomePage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"AdminHomePage\" \"homeAdmin\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1907000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill \"input\" \"email\" with 'admin@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I fill \"input\" \"username\" with 'administrator'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2081000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I fill \"input\" \"password\" with 'Admin1234'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I fill \"input\" \"firstName\" with 'faker.name.firstName'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I fill \"input\" \"lastName\" with 'faker.name.lastName'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I select from \"RolesDropdown\" option 'admin'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I press \"button\" \"RegisterUser\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I expect the \"UsersList\" to contain 'admin@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I press \"button\" \"Logout\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I should see \"LoginPage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I fill \"input\" \"email\" with 'admin@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I fill \"input\" \"password\" with 'Admin1234'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I press \"button\" \"Login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should be on the \"home\" page",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I should see \"HomePage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 675000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/utils/tests/e2e/features/hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin-login-and-add-new-users;test-admin-functionalities",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Test admin functionalities",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the \"LoginPage\" \"login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill \"input\" \"email\" with 'admin@admin.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill \"input\" \"password\" with 'Admin123'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I press \"button\" \"Login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be on the \"home\" page",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I should see \"HomePage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"AdminHomePage\" \"homeAdmin\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill \"input\" \"email\" with 'user@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I fill \"input\" \"username\" with 'user'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I fill \"input\" \"password\" with 'User1234'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I fill \"input\" \"firstName\" with 'faker.name.firstName'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I fill \"input\" \"lastName\" with 'faker.name.lastName'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I select from \"RolesDropdown\" option 'user'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1802000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I press \"button\" \"RegisterUser\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I expect the \"UsersList\" to contain 'user@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I press \"button\" \"Logout\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I should see \"LoginPage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I fill \"input\" \"email\" with 'user@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I fill \"input\" \"password\" with 'User1234'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1473000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I press \"button\" \"Login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should be on the \"home\" page",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I should see \"HomePage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 669000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/utils/tests/e2e/features/hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Register user",
+    "keyword": "Feature",
+    "name": "Register user",
+    "line": 1,
+    "id": "register-user",
+    "tags": [],
+    "uri": "src/utils/tests/e2e/features/UserRegister.feature",
+    "elements": [
+      {
+        "id": "register-user;register-user",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Register user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the \"RegisterPage\" \"register\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fill \"input\" \"email\" with 'test@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I fill \"input\" \"username\" with 'Test1'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fill \"input\" \"password\" with 'Test1234'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I fill \"input\" \"firstName\" with 'faker.name.firstName'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1940000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I fill \"input\" \"lastName\" with 'faker.name.firstName'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I press \"button\" \"Register\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be on the \"login\" page",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I fill \"input\" \"email\" with 'test@gmail.com'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I fill \"input\" \"password\" with 'Test1234'",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I press \"button\" \"Login\"",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I should be on the \"home\" page",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 808000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I should see \"HomePage\" displayed",
+            "match": {
+              "location": "src/utils/tests/e2e/features/step_definitions/steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 828000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/utils/tests/e2e/features/hooks.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
